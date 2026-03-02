@@ -12,7 +12,7 @@ public class Main {
         p1.getAge();
         
         System.out.println("name:"+ p1.getName());
-        System.out.println("name:"+ p1.getAge());
+        System.out.println("age:"+ p1.getAge());
         
     }
     
