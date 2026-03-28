@@ -1,8 +1,8 @@
 
-package threadinjava;
+package Problem_1;
 
 
-public class Threadinjava {
+public class Test {
 
    
     public static void main(String[] args) {

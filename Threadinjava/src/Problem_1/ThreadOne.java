@@ -1,5 +1,5 @@
 
-package threadinjava;
+package Problem_1;
 
 
 public class ThreadOne extends Thread{
