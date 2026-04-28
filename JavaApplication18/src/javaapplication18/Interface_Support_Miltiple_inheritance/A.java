@@ -1,0 +1,13 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+ */
+package javaapplication18.Interface_Support_Miltiple_inheritance;
+
+/**
+ *
+ * @author Emranul Hoque
+ */
+public interface A {
+   public abstract void play();
+}

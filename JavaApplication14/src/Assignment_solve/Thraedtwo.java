@@ -8,10 +8,11 @@ public class Thraedtwo extends Thread {
         try{
          for(int i = 10;i>=1;i--){
             System.out.println(""+i);
-            Thread.sleep(2000);
+          Thread.sleep(3000);
         }
+           
         }catch(Exception e){
-            e.printStackTrace();
+       System.out.println(""+e);
         }
        
     }

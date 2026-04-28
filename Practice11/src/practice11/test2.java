@@ -2,17 +2,27 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package inhe_practice;
+package practice11;
 
 /**
  *
  * @author Emranul Hoque
  */
-public abstract class Transport {
-      public abstract double calculateFare(int distance);
+public class test2 {
+    public static void main(String[] args) {
+        Animal mu;
+    mu=new Cat();
+    mu.eat();
+           
     
-    void showTransportType(){
-        System.out.println("This is normal method");
+    
+    mu=new Dog();
+    mu.eat();
     }
+    
+    
+    
+    
+    
     
 }

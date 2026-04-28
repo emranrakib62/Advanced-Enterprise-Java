@@ -8,6 +8,23 @@ package inhe_practice;
  *
  * @author Emranul Hoque
  */
-public class Bus {
+public  class Bus  extends Transport{
+
     
+   public  double calculateFare(int distance) {
+       return 10*distance;
+    }
+   
+   public void addpassenger(int num){
+       System.out.println("pass add:"+num);
+   }
+   public void addpassenger(int num,double loggage){
+       System.out.println(num+""+loggage);
+   }
+
+   
+
+   
+
+   
 }

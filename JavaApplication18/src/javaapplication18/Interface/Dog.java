@@ -2,17 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package inhe_practice;
+package javaapplication18.Interface;
 
 /**
  *
  * @author Emranul Hoque
  */
-public abstract class Transport {
-      public abstract double calculateFare(int distance);
-    
-    void showTransportType(){
-        System.out.println("This is normal method");
+public class Dog implements Animal {
+    public void eat(){
+        System.out.println("That is eat");
     }
-    
 }
